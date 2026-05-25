@@ -116,5 +116,14 @@
             <button type="submit" class="btn-submit">Ingresar</button>
         </form>
     </div>
+
+    <dialog id="credenciales-dialog" open style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #1e1e24; color: #fff; border: 2px solid #2563eb; padding: 20px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); z-index: 9999; font-family: sans-serif; text-align: center; margin: 0;">
+        <p style="margin: 0 0 15px 0; font-size: 15px; font-weight: bold;">
+            omarqm (admin) y omarqm2 (user), misma contraseña Omar411*
+        </p>
+        <button onclick="document.getElementById('credenciales-dialog').close()" style="background: #2563eb; color: white; border: none; padding: 6px 15px; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 13px;">
+            Entendido
+        </button>
+    </dialog>
 </body>
 </html>
